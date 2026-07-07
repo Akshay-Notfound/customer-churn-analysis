@@ -6,6 +6,7 @@ An end-to-end exploratory data analysis (EDA) project investigating customer chu
 This repository contains a comprehensive Jupyter Notebook (`customer_churn_analysis.ipynb`) that analyzes a dataset of customer subscriptions. The primary goal of this project is to understand why customers cancel their subscriptions, how long they stay before leaving, and what factors most influence their decisions.
 
 ### Key Features
+- **SQL Database Integration:** Connecting to a local SQLite database (`customer_churn.db`) and using SQL queries to extract, filter, and load raw customer data directly into Pandas DataFrames.
 - **Data Preparation:** Processing dates, handling missing values, and engineering new features like `tenure_days` to track customer lifetimes.
 - **Exploratory Data Analysis (EDA):** Discovering trends and patterns across different customer segments (demographics, subscription plans, contract types).
 - **Correlation Analysis:** Identifying statistical relationships between variables like Monthly Charges, CLTV (Customer Lifetime Value), and Churn Risk.
@@ -66,6 +67,7 @@ Secondary multi-variable distribution analysis.
 ## 🛠️ Technologies Used
 - **Python** (Data processing)
 - **Pandas** (Data manipulation)
+- **SQLite3 & SQL** (Database connection and data extraction)
 - **Plotly Express & Seaborn** (Interactive and statistical graphing)
 - **Jupyter Notebook** (Analysis environment)
 
