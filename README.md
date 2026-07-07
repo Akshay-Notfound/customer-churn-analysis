@@ -12,7 +12,7 @@ This repository contains a comprehensive Jupyter Notebook (`customer_churn_analy
 
 ## 📊 Visualizations and Insights
 
-Here are some of the key visual insights derived from the dataset:
+Here are all the key visual insights derived from the dataset:
 
 ### 1. Tenure Days Distribution by Churn
 Understanding how customer lifespan relates to cancellation rates.
@@ -46,7 +46,22 @@ Time-series view of cancellation spikes and trends.
 Statistical correlation matrix across all numerical variables.
 ![Correlation Heatmap](corelation%20heatmap.png)
 
-*(Additional Seaborn grids and heatmaps are also available in the repository).*
+### 9. Additional Heatmap 1
+Detailed numerical correlation view.
+![Heatmap 1](heatmap%201.png)
+
+### 10. Additional Heatmap 2
+Further detailed numerical correlation view.
+![Heatmap 2](heat%20map%202.png)
+
+### 11. Seaborn Axis Grid
+Multi-variable distribution and relationships.
+![Seaborn Axis Grid](seaborn%20axix%20grid.png)
+
+### 12. Seaborn Axis Grid 2
+Secondary multi-variable distribution analysis.
+![Seaborn Axis Grid 2](seaborn%20axix%20grid%202.png)
+
 
 ## 🛠️ Technologies Used
 - **Python** (Data processing)
